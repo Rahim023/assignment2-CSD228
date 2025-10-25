@@ -381,7 +381,7 @@ class _FloatingSymbolsState extends State<FloatingSymbols> with SingleTickerProv
   late AnimationController _controller;
   final Random _random = Random();
   final List<String> _symbols = ['+', '-', '×', '÷'];
-  final int _count = 500;
+  final int _count = 20;
   late final List<double> _initialLeft;
   late final List<double> _initialTop;
   late final List<double> _size;
